@@ -10,23 +10,25 @@
         android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Dang nhap he thong"
+        android:text=""
         android:textColor="#734504"
         android:textSize="40sp"
         android:id="@+id/txtTitle"/>
     <EditText
+        android:inputType="text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Nhap ten nguoi dung"
+        android:hint=""
         android:layout_below="@id/txtTitle"
         android:layout_marginTop="50dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:id="@+id/edUser"/>
     <EditText
+        android:inputType="textPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Nhap mat khau"
+        android:hint=""
         android:layout_below="@id/edUser"
         android:layout_marginTop="50dp"
         android:layout_marginLeft="10dp"
@@ -39,6 +41,6 @@
         android:layout_below="@id/edPassword"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="100dp"
-        android:text="Dang nhap"
+        android:text=""
         android:textSize="20sp"/>
 </RelativeLayout>
