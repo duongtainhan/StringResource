@@ -4,4 +4,6 @@
     <string name="EditText_hint_user">Nhap ten nguoi dung</string>
     <string name="EditText_hint_pass">Nhap mat khau</string>
     <string name="Button_login">Dang nhap</string>
+    <string name="TaiKhoan">"Tai khoan: "</string>
+    <string name="MatKhau">"Mat khau: "</string>
 </resources>

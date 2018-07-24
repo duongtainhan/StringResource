@@ -10,15 +10,15 @@
         android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=""
+        android:text="@string/Text_title"
         android:textColor="#734504"
-        android:textSize="40sp"
+        android:textSize="35sp"
         android:id="@+id/txtTitle"/>
     <EditText
         android:inputType="text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint=""
+        android:hint="@string/EditText_hint_user"
         android:layout_below="@id/txtTitle"
         android:layout_marginTop="50dp"
         android:layout_marginLeft="10dp"
@@ -28,7 +28,7 @@
         android:inputType="textPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint=""
+        android:hint="@string/EditText_hint_pass"
         android:layout_below="@id/edUser"
         android:layout_marginTop="50dp"
         android:layout_marginLeft="10dp"
@@ -41,6 +41,14 @@
         android:layout_below="@id/edPassword"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="100dp"
-        android:text=""
+        android:text="@string/Button_login"
         android:textSize="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtInfo"
+        android:layout_below="@id/edPassword"
+        android:text=""
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"/>
 </RelativeLayout>
